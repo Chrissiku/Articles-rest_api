@@ -76,6 +76,8 @@ GEM
       reline (>= 0.2.7)
     digest (3.1.0)
     erubi (1.11.0)
+    faker (2.23.0)
+      i18n (>= 1.8.11, < 2)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.12.0)
@@ -164,6 +166,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   debug
+  faker
   mysql2
   puma (~> 5.0)
   rails (~> 7.0.4)
